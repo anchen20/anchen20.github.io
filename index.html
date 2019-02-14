@@ -67,7 +67,7 @@
   <header>
     <div class="site-brand">
       <div class="site-title">
-        <a href="/">anChen</a>
+        <a href="/">AnChen</a>
       </div>
     </div>
     <nav class="site-navigation">
@@ -221,6 +221,110 @@
         <div class="article-meta pull-right">
           <span class="pc-view">
             <i class="iconfont icon-view"></i>浏览: <span class="article-timer" data-identity="hello-world"></span>
+          </span>
+        </div>
+      
+    </div>
+  </div>
+  
+  <div class="post">
+    <h1 class="article-title">
+      <a href="/2019/01/14/模板/">
+        <span>文章模板</span>
+      </a>
+    </h1>
+    <!-- PC端文章信息 -->
+    <div class="article-top-meta pc-view">
+      <span>
+        发布时间 : 2019-01-14
+      </span>
+    </div>
+    <!-- 移动端文章信息 -->
+    <div class="article-top-meta mobile-view">
+      <span>
+        发布 : 2019-01-14
+      </span>
+      
+        <span>
+        分类 :
+          <a href="/categories/文章分类/">
+            文章分类
+          </a>
+        </span>
+      
+      
+        <span>
+          浏览 : <span class="article-timer" data-identity="模板"></span>
+        </span>
+      
+    </div>
+    
+      <div id="模板" style="margin: 4rem 2px -1rem"></div>
+<script async>
+  (function(){
+    let playerTimer = setInterval(function(){
+      if(!window.APlayer){
+        return
+      }
+
+      new APlayer({
+        container: document.getElementById('模板'),
+        theme: '#e96900',
+        listFolded: false,
+        audio: [{"name":"Where are you","artist":"AniFace","url":"//music.163.com/song/media/outer/url?id=453843751.mp3","cover":"//p1.music.126.net/AUfXMljLBgB3PBV731IzRg==/109951162857118370.jpg?param=130y130"},{"name":"END THEME","artist":"天門","url":"http://music.163.com/song/media/outer/url?id=528306.mp3","cover":"//p1.music.126.net/1sw_ptPeI_GNm58VBW1udQ==/2504687488135369.jpg?param=130y130"}]
+      });
+      
+      clearInterval(playerTimer)
+    }, 10);
+  })()
+</script>
+    
+    <!-- 文章简介 -->
+    <div class="article-content">
+      <div class="markdown-body article-content--inner" v-html="mdToHtml(psg.summary)">
+        <p>在<code>&lt;!-- more --&gt;</code>之前编写文章的摘要内容！！！<br>这是一个关于段落的测试用例</p>
+      </div>
+    </div>
+    <div class="article-footer">
+      <div class="article-meta pull-left">
+        <!-- 分类pc端可见 -->
+        <span class="pc-view">
+          
+            <i class="iconfont icon-tag"></i>分类:
+            <a href="/categories/文章分类/">
+              文章分类
+            </a>
+          </span>
+          
+        <span>
+          
+            <i class="iconfont icon-06tags"></i>标签:
+            
+              <span class="span--tag">
+                <a href="/tags/文章标签1/">
+                  #文章标签1
+                </a>
+              </span>
+            
+              <span class="span--tag">
+                <a href="/tags/文章标签2/">
+                  #文章标签2
+                </a>
+              </span>
+            
+              <span class="span--tag">
+                <a href="/tags/">
+                  #...
+                </a>
+              </span>
+            
+                    
+        </span>
+      </div>
+      
+        <div class="article-meta pull-right">
+          <span class="pc-view">
+            <i class="iconfont icon-view"></i>浏览: <span class="article-timer" data-identity="模板"></span>
           </span>
         </div>
       

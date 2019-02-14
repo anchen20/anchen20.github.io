@@ -34,7 +34,7 @@ const generateToc = () => {
   if(document.body.clientWidth < 768) {
     return;
   }
-  $("#sidebar-header").append("<span> Table of Contents </span>");
+  $("#sidebar-header").append("<span> 目录 </span>");
   let sidebar = $("#sidebar"),
     app = $("#app"),
     topBtn = $(".back-to-top");
